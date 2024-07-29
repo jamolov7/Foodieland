@@ -11,24 +11,19 @@ body {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
+.header{
+  position: fixed;
+}
+
 .navbar{
     box-shadow: 0 1px 1px #000;
     display: flex;
     justify-content: space-between;
     font-weight: 500;
     backdrop-filter: blur(20px);
-<<<<<<< Updated upstream
-    position: fixed;
+    position: fixed !important;
+    top: 0 !important;
 }
-=======
-    position: sticky;
-    top: 0;
-}
-.e .navbar{
-  position: fixed;
-}
-
->>>>>>> Stashed changes
 .icons{
     gap: 30px;
     position: relative;
@@ -383,35 +378,32 @@ body {
     position: relative;
     padding: 0 30px;
     bottom: 150px;
-<<<<<<< Updated upstream
-=======
     font-weight: bold;
     border-bottom: 1px solid #000;
     padding: 20px;
->>>>>>> Stashed changes
+
+    border-bottom: 2px solid #000;
+    font-weight: bold;
 }
 .footer ul{
     display: flex;
     justify-content: center;
     width: 50%;
     gap: 50px;
-<<<<<<< Updated upstream
-=======
+    border-bottom: 2px solid #000;
+
     font-weight: bold;
->>>>>>> Stashed changes
 }
 .footer ul li a{
     color: #000;
     text-decoration: none;
 }
+
 .end{
-<<<<<<< Updated upstream
-    border-top: 2px solid #000;
-=======
   position: relative;
   bottom: 50px;
->>>>>>> Stashed changes
 }
+
 /* ====== RESPONSIVE ==== */
 @media screen and (max-width:1007px) {
     .icons{
@@ -521,49 +513,46 @@ body {
         position: relative;
         right: 20px;
     }
-<<<<<<< Updated upstream
-=======
+
     .footer{
       display: none;
     }
->>>>>>> Stashed changes
     
 }
 @media (max-width: 922px) and (min-width: 601px) {
     .title-num{
         display: grid;
-<<<<<<< Updated upstream
+
         grid-template-columns: repeat(1, 1fr);
-=======
         grid-template-columns: repeat(200px, 1fr);
     }
     .footer{
       display: none;
->>>>>>> Stashed changes
+
+        grid-template-columns: repeat(1, 1fr);
+
     }
     .text-center-img{
         display: none;
     }
-<<<<<<< Updated upstream
-=======
+
     .search-1{
       display: none;
     }
     .footer {
       display: none;
     }
->>>>>>> Stashed changes
+
   }
   @media (max-width: 600px) {
     .title-num{
         flex-direction: column;
     }
-<<<<<<< Updated upstream
-=======
+
     .footer{
       display: none;
     }
->>>>>>> Stashed changes
+
     .text-center-img{
         display: none;
     }
