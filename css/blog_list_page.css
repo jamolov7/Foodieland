@@ -17,18 +17,15 @@ body {
     justify-content: space-between;
     font-weight: 500;
     backdrop-filter: blur(20px);
-<<<<<<< Updated upstream
     position: fixed;
 }
-=======
+
     position: sticky;
     top: 0;
 }
 .e .navbar{
   position: fixed;
 }
-
->>>>>>> Stashed changes
 .icons{
     gap: 30px;
     position: relative;
