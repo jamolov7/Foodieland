@@ -17,14 +17,8 @@ body {
     justify-content: space-between;
     font-weight: 500;
     backdrop-filter: blur(20px);
-    position: fixed;
-}
-
-    position: sticky;
-    top: 0;
-}
-.e .navbar{
-  position: fixed;
+    position: fixed !important;
+    top: 0 !important;
 }
 .icons{
     gap: 30px;
@@ -380,34 +374,24 @@ body {
     position: relative;
     padding: 0 30px;
     bottom: 150px;
-<<<<<<< Updated upstream
-=======
     font-weight: bold;
     border-bottom: 1px solid #000;
     padding: 20px;
->>>>>>> Stashed changes
 }
 .footer ul{
     display: flex;
     justify-content: center;
     width: 50%;
     gap: 50px;
-<<<<<<< Updated upstream
-=======
     font-weight: bold;
->>>>>>> Stashed changes
 }
 .footer ul li a{
     color: #000;
     text-decoration: none;
 }
 .end{
-<<<<<<< Updated upstream
-    border-top: 2px solid #000;
-=======
   position: relative;
   bottom: 50px;
->>>>>>> Stashed changes
 }
 /* ====== RESPONSIVE ==== */
 @media screen and (max-width:1007px) {
@@ -518,49 +502,36 @@ body {
         position: relative;
         right: 20px;
     }
-<<<<<<< Updated upstream
-=======
     .footer{
       display: none;
     }
->>>>>>> Stashed changes
     
 }
 @media (max-width: 922px) and (min-width: 601px) {
     .title-num{
         display: grid;
-<<<<<<< Updated upstream
-        grid-template-columns: repeat(1, 1fr);
-=======
         grid-template-columns: repeat(200px, 1fr);
     }
     .footer{
       display: none;
->>>>>>> Stashed changes
     }
     .text-center-img{
         display: none;
     }
-<<<<<<< Updated upstream
-=======
     .search-1{
       display: none;
     }
     .footer {
       display: none;
     }
->>>>>>> Stashed changes
   }
   @media (max-width: 600px) {
     .title-num{
         flex-direction: column;
     }
-<<<<<<< Updated upstream
-=======
     .footer{
       display: none;
     }
->>>>>>> Stashed changes
     .text-center-img{
         display: none;
     }
